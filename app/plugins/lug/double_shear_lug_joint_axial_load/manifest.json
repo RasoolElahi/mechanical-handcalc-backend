@@ -1,0 +1,44 @@
+{
+  "plugin_id": "lug__double_shear_lug_joint_axial_load",
+  "top_category": "LUG",
+  "subcategory": "Double shear lug joint - axial load",
+  "category_slug": "lug",
+  "calc_slug": "double_shear_lug_joint_axial_load",
+  "ui_mode": "generic",
+  "short_description": "Double shear lug joint - axial load calculator in the hybrid plugin architecture.",
+  "tags": [
+    "lug",
+    "lug",
+    "double_shear_lug_joint_axial_load"
+  ],
+  "generic_fields": [
+    {
+      "name": "pin_diameter",
+      "label": "Pin Diameter",
+      "type": "number",
+      "unit": "in",
+      "default": 0.5
+    },
+    {
+      "name": "thickness",
+      "label": "Thickness",
+      "type": "number",
+      "unit": "in",
+      "default": 0.5
+    },
+    {
+      "name": "edge_distance",
+      "label": "Edge Distance",
+      "type": "number",
+      "unit": "in",
+      "default": 0.75
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "unit": "lbf",
+      "default": 1000.0
+    }
+  ]
+}

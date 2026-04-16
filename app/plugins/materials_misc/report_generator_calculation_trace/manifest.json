@@ -1,0 +1,40 @@
+{
+  "plugin_id": "materials_misc__report_generator_calculation_trace",
+  "top_category": "MATERIALS_MISC",
+  "subcategory": "Report generator / calculation trace",
+  "category_slug": "materials_misc",
+  "calc_slug": "report_generator_calculation_trace",
+  "ui_mode": "generic",
+  "short_description": "Report generator / calculation trace calculator in the hybrid plugin architecture.",
+  "tags": [
+    "materials_misc",
+    "materials_misc",
+    "report_generator_calculation_trace"
+  ],
+  "generic_fields": [
+    {
+      "name": "primary_dimension",
+      "label": "Primary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "secondary_dimension",
+      "label": "Secondary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "default": 100.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

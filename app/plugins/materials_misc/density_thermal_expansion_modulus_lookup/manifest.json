@@ -1,0 +1,40 @@
+{
+  "plugin_id": "materials_misc__density_thermal_expansion_modulus_lookup",
+  "top_category": "MATERIALS_MISC",
+  "subcategory": "Density / thermal expansion / modulus lookup",
+  "category_slug": "materials_misc",
+  "calc_slug": "density_thermal_expansion_modulus_lookup",
+  "ui_mode": "generic",
+  "short_description": "Density / thermal expansion / modulus lookup calculator in the hybrid plugin architecture.",
+  "tags": [
+    "materials_misc",
+    "materials_misc",
+    "density_thermal_expansion_modulus_lookup"
+  ],
+  "generic_fields": [
+    {
+      "name": "primary_dimension",
+      "label": "Primary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "secondary_dimension",
+      "label": "Secondary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "default": 100.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

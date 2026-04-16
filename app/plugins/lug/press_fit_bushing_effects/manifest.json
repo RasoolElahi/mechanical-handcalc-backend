@@ -1,0 +1,44 @@
+{
+  "plugin_id": "lug__press_fit_bushing_effects",
+  "top_category": "LUG",
+  "subcategory": "Press-fit bushing effects",
+  "category_slug": "lug",
+  "calc_slug": "press_fit_bushing_effects",
+  "ui_mode": "generic",
+  "short_description": "Press-fit bushing effects calculator in the hybrid plugin architecture.",
+  "tags": [
+    "lug",
+    "lug",
+    "press_fit_bushing_effects"
+  ],
+  "generic_fields": [
+    {
+      "name": "pin_diameter",
+      "label": "Pin Diameter",
+      "type": "number",
+      "unit": "in",
+      "default": 0.5
+    },
+    {
+      "name": "thickness",
+      "label": "Thickness",
+      "type": "number",
+      "unit": "in",
+      "default": 0.5
+    },
+    {
+      "name": "edge_distance",
+      "label": "Edge Distance",
+      "type": "number",
+      "unit": "in",
+      "default": 0.75
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "unit": "lbf",
+      "default": 1000.0
+    }
+  ]
+}

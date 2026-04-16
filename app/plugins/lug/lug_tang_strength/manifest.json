@@ -1,0 +1,44 @@
+{
+  "plugin_id": "lug__lug_tang_strength",
+  "top_category": "LUG",
+  "subcategory": "Lug tang strength",
+  "category_slug": "lug",
+  "calc_slug": "lug_tang_strength",
+  "ui_mode": "generic",
+  "short_description": "Lug tang strength calculator in the hybrid plugin architecture.",
+  "tags": [
+    "lug",
+    "lug",
+    "lug_tang_strength"
+  ],
+  "generic_fields": [
+    {
+      "name": "pin_diameter",
+      "label": "Pin Diameter",
+      "type": "number",
+      "unit": "in",
+      "default": 0.5
+    },
+    {
+      "name": "thickness",
+      "label": "Thickness",
+      "type": "number",
+      "unit": "in",
+      "default": 0.5
+    },
+    {
+      "name": "edge_distance",
+      "label": "Edge Distance",
+      "type": "number",
+      "unit": "in",
+      "default": 0.75
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "unit": "lbf",
+      "default": 1000.0
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "plugin_id": "lug__axial_lug_bushing_bearing",
+  "top_category": "LUG",
+  "subcategory": "Axial lug - bushing bearing",
+  "category_slug": "lug",
+  "calc_slug": "axial_lug_bushing_bearing",
+  "ui_mode": "generic",
+  "short_description": "Axial lug - bushing bearing calculator in the hybrid plugin architecture.",
+  "tags": [
+    "lug",
+    "lug",
+    "axial_lug_bushing_bearing"
+  ],
+  "generic_fields": [
+    {
+      "name": "pin_diameter",
+      "label": "Pin Diameter",
+      "type": "number",
+      "unit": "in",
+      "default": 0.5
+    },
+    {
+      "name": "thickness",
+      "label": "Thickness",
+      "type": "number",
+      "unit": "in",
+      "default": 0.5
+    },
+    {
+      "name": "edge_distance",
+      "label": "Edge Distance",
+      "type": "number",
+      "unit": "in",
+      "default": 0.75
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "unit": "lbf",
+      "default": 1000.0
+    }
+  ]
+}

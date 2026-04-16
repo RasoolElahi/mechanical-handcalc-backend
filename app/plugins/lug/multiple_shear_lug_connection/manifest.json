@@ -1,0 +1,44 @@
+{
+  "plugin_id": "lug__multiple_shear_lug_connection",
+  "top_category": "LUG",
+  "subcategory": "Multiple shear lug connection",
+  "category_slug": "lug",
+  "calc_slug": "multiple_shear_lug_connection",
+  "ui_mode": "generic",
+  "short_description": "Multiple shear lug connection calculator in the hybrid plugin architecture.",
+  "tags": [
+    "lug",
+    "lug",
+    "multiple_shear_lug_connection"
+  ],
+  "generic_fields": [
+    {
+      "name": "pin_diameter",
+      "label": "Pin Diameter",
+      "type": "number",
+      "unit": "in",
+      "default": 0.5
+    },
+    {
+      "name": "thickness",
+      "label": "Thickness",
+      "type": "number",
+      "unit": "in",
+      "default": 0.5
+    },
+    {
+      "name": "edge_distance",
+      "label": "Edge Distance",
+      "type": "number",
+      "unit": "in",
+      "default": 0.75
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "unit": "lbf",
+      "default": 1000.0
+    }
+  ]
+}

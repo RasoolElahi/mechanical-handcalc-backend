@@ -1,0 +1,40 @@
+{
+  "plugin_id": "materials_misc__safety_factor_margin_of_safety_utility",
+  "top_category": "MATERIALS_MISC",
+  "subcategory": "Safety factor / margin of safety utility",
+  "category_slug": "materials_misc",
+  "calc_slug": "safety_factor_margin_of_safety_utility",
+  "ui_mode": "generic",
+  "short_description": "Safety factor / margin of safety utility calculator in the hybrid plugin architecture.",
+  "tags": [
+    "materials_misc",
+    "materials_misc",
+    "safety_factor_margin_of_safety_utility"
+  ],
+  "generic_fields": [
+    {
+      "name": "primary_dimension",
+      "label": "Primary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "secondary_dimension",
+      "label": "Secondary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "default": 100.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

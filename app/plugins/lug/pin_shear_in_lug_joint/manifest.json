@@ -1,0 +1,44 @@
+{
+  "plugin_id": "lug__pin_shear_in_lug_joint",
+  "top_category": "LUG",
+  "subcategory": "Pin shear in lug joint",
+  "category_slug": "lug",
+  "calc_slug": "pin_shear_in_lug_joint",
+  "ui_mode": "generic",
+  "short_description": "Pin shear in lug joint calculator in the hybrid plugin architecture.",
+  "tags": [
+    "lug",
+    "lug",
+    "pin_shear_in_lug_joint"
+  ],
+  "generic_fields": [
+    {
+      "name": "pin_diameter",
+      "label": "Pin Diameter",
+      "type": "number",
+      "unit": "in",
+      "default": 0.5
+    },
+    {
+      "name": "thickness",
+      "label": "Thickness",
+      "type": "number",
+      "unit": "in",
+      "default": 0.5
+    },
+    {
+      "name": "edge_distance",
+      "label": "Edge Distance",
+      "type": "number",
+      "unit": "in",
+      "default": 0.75
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "unit": "lbf",
+      "default": 1000.0
+    }
+  ]
+}

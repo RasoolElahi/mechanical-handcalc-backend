@@ -1,0 +1,44 @@
+{
+  "plugin_id": "lug__oblique_lug_loading",
+  "top_category": "LUG",
+  "subcategory": "Oblique lug loading",
+  "category_slug": "lug",
+  "calc_slug": "oblique_lug_loading",
+  "ui_mode": "generic",
+  "short_description": "Oblique lug loading calculator in the hybrid plugin architecture.",
+  "tags": [
+    "lug",
+    "lug",
+    "oblique_lug_loading"
+  ],
+  "generic_fields": [
+    {
+      "name": "pin_diameter",
+      "label": "Pin Diameter",
+      "type": "number",
+      "unit": "in",
+      "default": 0.5
+    },
+    {
+      "name": "thickness",
+      "label": "Thickness",
+      "type": "number",
+      "unit": "in",
+      "default": 0.5
+    },
+    {
+      "name": "edge_distance",
+      "label": "Edge Distance",
+      "type": "number",
+      "unit": "in",
+      "default": 0.75
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "unit": "lbf",
+      "default": 1000.0
+    }
+  ]
+}
