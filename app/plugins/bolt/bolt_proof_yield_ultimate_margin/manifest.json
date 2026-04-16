@@ -1,0 +1,42 @@
+{
+  "plugin_id": "bolt__bolt_proof_yield_ultimate_margin",
+  "top_category": "BOLT",
+  "subcategory": "Bolt proof / yield / ultimate margin",
+  "category_slug": "bolt",
+  "calc_slug": "bolt_proof_yield_ultimate_margin",
+  "ui_mode": "generic",
+  "short_description": "Bolt proof / yield / ultimate margin calculator in the hybrid plugin architecture.",
+  "tags": [
+    "bolt",
+    "bolt",
+    "bolt_proof_yield_ultimate_margin"
+  ],
+  "generic_fields": [
+    {
+      "name": "nominal_diameter",
+      "label": "Nominal Diameter",
+      "type": "number",
+      "unit": "in",
+      "default": 0.5
+    },
+    {
+      "name": "threads_per_inch",
+      "label": "Threads per Inch",
+      "type": "number",
+      "default": 13.0
+    },
+    {
+      "name": "proof_strength",
+      "label": "Proof Strength",
+      "type": "number",
+      "unit": "ksi",
+      "default": 85.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "plugin_id": "bolt__bolt_pattern_arbitrary_2d_pattern",
+  "top_category": "BOLT",
+  "subcategory": "Bolt pattern - arbitrary 2D pattern",
+  "category_slug": "bolt",
+  "calc_slug": "bolt_pattern_arbitrary_2d_pattern",
+  "ui_mode": "generic",
+  "short_description": "Bolt pattern - arbitrary 2D pattern calculator in the hybrid plugin architecture.",
+  "tags": [
+    "bolt",
+    "bolt",
+    "bolt_pattern_arbitrary_2d_pattern"
+  ],
+  "generic_fields": [
+    {
+      "name": "nominal_diameter",
+      "label": "Nominal Diameter",
+      "type": "number",
+      "unit": "in",
+      "default": 0.5
+    },
+    {
+      "name": "threads_per_inch",
+      "label": "Threads per Inch",
+      "type": "number",
+      "default": 13.0
+    },
+    {
+      "name": "proof_strength",
+      "label": "Proof Strength",
+      "type": "number",
+      "unit": "ksi",
+      "default": 85.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "plugin_id": "bolt__tap_drill_minor_diameter",
+  "top_category": "BOLT",
+  "subcategory": "Tap drill / minor diameter",
+  "category_slug": "bolt",
+  "calc_slug": "tap_drill_minor_diameter",
+  "ui_mode": "generic",
+  "short_description": "Tap drill / minor diameter calculator in the hybrid plugin architecture.",
+  "tags": [
+    "bolt",
+    "bolt",
+    "tap_drill_minor_diameter"
+  ],
+  "generic_fields": [
+    {
+      "name": "nominal_diameter",
+      "label": "Nominal Diameter",
+      "type": "number",
+      "unit": "in",
+      "default": 0.5
+    },
+    {
+      "name": "threads_per_inch",
+      "label": "Threads per Inch",
+      "type": "number",
+      "default": 13.0
+    },
+    {
+      "name": "proof_strength",
+      "label": "Proof Strength",
+      "type": "number",
+      "unit": "ksi",
+      "default": 85.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

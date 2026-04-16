@@ -1,0 +1,42 @@
+{
+  "plugin_id": "bolt__thread_geometry_unf",
+  "top_category": "BOLT",
+  "subcategory": "Thread geometry - UNF",
+  "category_slug": "bolt",
+  "calc_slug": "thread_geometry_unf",
+  "ui_mode": "generic",
+  "short_description": "Thread geometry - UNF calculator in the hybrid plugin architecture.",
+  "tags": [
+    "bolt",
+    "bolt",
+    "thread_geometry_unf"
+  ],
+  "generic_fields": [
+    {
+      "name": "nominal_diameter",
+      "label": "Nominal Diameter",
+      "type": "number",
+      "unit": "in",
+      "default": 0.5
+    },
+    {
+      "name": "threads_per_inch",
+      "label": "Threads per Inch",
+      "type": "number",
+      "default": 13.0
+    },
+    {
+      "name": "proof_strength",
+      "label": "Proof Strength",
+      "type": "number",
+      "unit": "ksi",
+      "default": 85.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

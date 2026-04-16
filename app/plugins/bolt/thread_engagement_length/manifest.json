@@ -1,0 +1,42 @@
+{
+  "plugin_id": "bolt__thread_engagement_length",
+  "top_category": "BOLT",
+  "subcategory": "Thread engagement length",
+  "category_slug": "bolt",
+  "calc_slug": "thread_engagement_length",
+  "ui_mode": "generic",
+  "short_description": "Thread engagement length calculator in the hybrid plugin architecture.",
+  "tags": [
+    "bolt",
+    "bolt",
+    "thread_engagement_length"
+  ],
+  "generic_fields": [
+    {
+      "name": "nominal_diameter",
+      "label": "Nominal Diameter",
+      "type": "number",
+      "unit": "in",
+      "default": 0.5
+    },
+    {
+      "name": "threads_per_inch",
+      "label": "Threads per Inch",
+      "type": "number",
+      "default": 13.0
+    },
+    {
+      "name": "proof_strength",
+      "label": "Proof Strength",
+      "type": "number",
+      "unit": "ksi",
+      "default": 85.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}
