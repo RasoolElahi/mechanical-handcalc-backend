@@ -1,0 +1,40 @@
+{
+  "plugin_id": "spring__helical_compression_spring_fatigue",
+  "top_category": "SPRING",
+  "subcategory": "Helical compression spring - fatigue",
+  "category_slug": "spring",
+  "calc_slug": "helical_compression_spring_fatigue",
+  "ui_mode": "generic",
+  "short_description": "Helical compression spring - fatigue calculator in the hybrid plugin architecture.",
+  "tags": [
+    "spring",
+    "spring",
+    "helical_compression_spring_fatigue"
+  ],
+  "generic_fields": [
+    {
+      "name": "primary_dimension",
+      "label": "Primary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "secondary_dimension",
+      "label": "Secondary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "default": 100.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

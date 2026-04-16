@@ -1,0 +1,44 @@
+{
+  "plugin_id": "weld__butt_weld_tension_compression",
+  "top_category": "WELD",
+  "subcategory": "Butt weld - tension / compression",
+  "category_slug": "weld",
+  "calc_slug": "butt_weld_tension_compression",
+  "ui_mode": "generic",
+  "short_description": "Butt weld - tension / compression calculator in the hybrid plugin architecture.",
+  "tags": [
+    "weld",
+    "weld",
+    "butt_weld_tension_compression"
+  ],
+  "generic_fields": [
+    {
+      "name": "weld_size",
+      "label": "Weld Size",
+      "type": "number",
+      "unit": "in",
+      "default": 0.25
+    },
+    {
+      "name": "weld_length",
+      "label": "Weld Length",
+      "type": "number",
+      "unit": "in",
+      "default": 4.0
+    },
+    {
+      "name": "applied_load",
+      "label": "Applied Load",
+      "type": "number",
+      "unit": "lbf",
+      "default": 1000.0
+    },
+    {
+      "name": "allowable_stress",
+      "label": "Allowable Stress",
+      "type": "number",
+      "unit": "ksi",
+      "default": 18.0
+    }
+  ]
+}

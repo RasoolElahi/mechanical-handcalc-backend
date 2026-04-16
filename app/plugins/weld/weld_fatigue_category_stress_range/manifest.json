@@ -1,0 +1,44 @@
+{
+  "plugin_id": "weld__weld_fatigue_category_stress_range",
+  "top_category": "WELD",
+  "subcategory": "Weld fatigue category / stress range",
+  "category_slug": "weld",
+  "calc_slug": "weld_fatigue_category_stress_range",
+  "ui_mode": "generic",
+  "short_description": "Weld fatigue category / stress range calculator in the hybrid plugin architecture.",
+  "tags": [
+    "weld",
+    "weld",
+    "weld_fatigue_category_stress_range"
+  ],
+  "generic_fields": [
+    {
+      "name": "weld_size",
+      "label": "Weld Size",
+      "type": "number",
+      "unit": "in",
+      "default": 0.25
+    },
+    {
+      "name": "weld_length",
+      "label": "Weld Length",
+      "type": "number",
+      "unit": "in",
+      "default": 4.0
+    },
+    {
+      "name": "applied_load",
+      "label": "Applied Load",
+      "type": "number",
+      "unit": "lbf",
+      "default": 1000.0
+    },
+    {
+      "name": "allowable_stress",
+      "label": "Allowable Stress",
+      "type": "number",
+      "unit": "ksi",
+      "default": 18.0
+    }
+  ]
+}

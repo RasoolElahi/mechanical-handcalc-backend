@@ -1,0 +1,40 @@
+{
+  "plugin_id": "spring__belleville_spring",
+  "top_category": "SPRING",
+  "subcategory": "Belleville spring",
+  "category_slug": "spring",
+  "calc_slug": "belleville_spring",
+  "ui_mode": "generic",
+  "short_description": "Belleville spring calculator in the hybrid plugin architecture.",
+  "tags": [
+    "spring",
+    "spring",
+    "belleville_spring"
+  ],
+  "generic_fields": [
+    {
+      "name": "primary_dimension",
+      "label": "Primary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "secondary_dimension",
+      "label": "Secondary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "default": 100.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

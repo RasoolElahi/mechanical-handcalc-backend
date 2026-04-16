@@ -1,0 +1,44 @@
+{
+  "plugin_id": "weld__weld_utilization_margin_of_safety_summary",
+  "top_category": "WELD",
+  "subcategory": "Weld utilization / margin of safety summary",
+  "category_slug": "weld",
+  "calc_slug": "weld_utilization_margin_of_safety_summary",
+  "ui_mode": "generic",
+  "short_description": "Weld utilization / margin of safety summary calculator in the hybrid plugin architecture.",
+  "tags": [
+    "weld",
+    "weld",
+    "weld_utilization_margin_of_safety_summary"
+  ],
+  "generic_fields": [
+    {
+      "name": "weld_size",
+      "label": "Weld Size",
+      "type": "number",
+      "unit": "in",
+      "default": 0.25
+    },
+    {
+      "name": "weld_length",
+      "label": "Weld Length",
+      "type": "number",
+      "unit": "in",
+      "default": 4.0
+    },
+    {
+      "name": "applied_load",
+      "label": "Applied Load",
+      "type": "number",
+      "unit": "lbf",
+      "default": 1000.0
+    },
+    {
+      "name": "allowable_stress",
+      "label": "Allowable Stress",
+      "type": "number",
+      "unit": "ksi",
+      "default": 18.0
+    }
+  ]
+}
