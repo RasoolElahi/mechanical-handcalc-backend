@@ -1,0 +1,40 @@
+{
+  "plugin_id": "bearing__bearing_pressure_pv_check",
+  "top_category": "BEARING",
+  "subcategory": "Bearing pressure / PV check",
+  "category_slug": "bearing",
+  "calc_slug": "bearing_pressure_pv_check",
+  "ui_mode": "generic",
+  "short_description": "Bearing pressure / PV check calculator in the hybrid plugin architecture.",
+  "tags": [
+    "bearing",
+    "bearing",
+    "bearing_pressure_pv_check"
+  ],
+  "generic_fields": [
+    {
+      "name": "primary_dimension",
+      "label": "Primary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "secondary_dimension",
+      "label": "Secondary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "default": 100.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

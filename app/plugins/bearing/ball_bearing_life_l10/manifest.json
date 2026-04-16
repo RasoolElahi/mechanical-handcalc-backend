@@ -1,0 +1,40 @@
+{
+  "plugin_id": "bearing__ball_bearing_life_l10",
+  "top_category": "BEARING",
+  "subcategory": "Ball bearing life L10",
+  "category_slug": "bearing",
+  "calc_slug": "ball_bearing_life_l10",
+  "ui_mode": "generic",
+  "short_description": "Ball bearing life L10 calculator in the hybrid plugin architecture.",
+  "tags": [
+    "bearing",
+    "bearing",
+    "ball_bearing_life_l10"
+  ],
+  "generic_fields": [
+    {
+      "name": "primary_dimension",
+      "label": "Primary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "secondary_dimension",
+      "label": "Secondary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "default": 100.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

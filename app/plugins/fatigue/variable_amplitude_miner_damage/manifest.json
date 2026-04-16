@@ -1,0 +1,40 @@
+{
+  "plugin_id": "fatigue__variable_amplitude_miner_damage",
+  "top_category": "FATIGUE",
+  "subcategory": "Variable amplitude Miner damage",
+  "category_slug": "fatigue",
+  "calc_slug": "variable_amplitude_miner_damage",
+  "ui_mode": "generic",
+  "short_description": "Variable amplitude Miner damage calculator in the hybrid plugin architecture.",
+  "tags": [
+    "fatigue",
+    "fatigue",
+    "variable_amplitude_miner_damage"
+  ],
+  "generic_fields": [
+    {
+      "name": "primary_dimension",
+      "label": "Primary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "secondary_dimension",
+      "label": "Secondary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "default": 100.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "plugin_id": "frame_truss__ring_curved_beam_stress",
+  "top_category": "FRAME_TRUSS",
+  "subcategory": "Ring / curved beam stress",
+  "category_slug": "frame_truss",
+  "calc_slug": "ring_curved_beam_stress",
+  "ui_mode": "generic",
+  "short_description": "Ring / curved beam stress calculator in the hybrid plugin architecture.",
+  "tags": [
+    "frame_truss",
+    "frame_truss",
+    "ring_curved_beam_stress"
+  ],
+  "generic_fields": [
+    {
+      "name": "primary_dimension",
+      "label": "Primary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "secondary_dimension",
+      "label": "Secondary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "default": 100.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "plugin_id": "fatigue__endurance_limit_modification",
+  "top_category": "FATIGUE",
+  "subcategory": "Endurance limit modification",
+  "category_slug": "fatigue",
+  "calc_slug": "endurance_limit_modification",
+  "ui_mode": "generic",
+  "short_description": "Endurance limit modification calculator in the hybrid plugin architecture.",
+  "tags": [
+    "fatigue",
+    "fatigue",
+    "endurance_limit_modification"
+  ],
+  "generic_fields": [
+    {
+      "name": "primary_dimension",
+      "label": "Primary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "secondary_dimension",
+      "label": "Secondary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "default": 100.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}
