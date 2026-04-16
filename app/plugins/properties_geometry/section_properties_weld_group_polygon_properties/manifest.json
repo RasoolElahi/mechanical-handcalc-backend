@@ -1,0 +1,40 @@
+{
+  "plugin_id": "properties_geometry__section_properties_weld_group_polygon_properties",
+  "top_category": "PROPERTIES_GEOMETRY",
+  "subcategory": "Section properties - weld-group polygon properties",
+  "category_slug": "properties_geometry",
+  "calc_slug": "section_properties_weld_group_polygon_properties",
+  "ui_mode": "generic",
+  "short_description": "Section properties - weld-group polygon properties calculator in the hybrid plugin architecture.",
+  "tags": [
+    "properties_geometry",
+    "properties_geometry",
+    "section_properties_weld_group_polygon_properties"
+  ],
+  "generic_fields": [
+    {
+      "name": "primary_dimension",
+      "label": "Primary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "secondary_dimension",
+      "label": "Secondary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "default": 100.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

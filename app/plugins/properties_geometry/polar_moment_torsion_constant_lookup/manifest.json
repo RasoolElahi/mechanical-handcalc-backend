@@ -1,0 +1,40 @@
+{
+  "plugin_id": "properties_geometry__polar_moment_torsion_constant_lookup",
+  "top_category": "PROPERTIES_GEOMETRY",
+  "subcategory": "Polar moment / torsion constant lookup",
+  "category_slug": "properties_geometry",
+  "calc_slug": "polar_moment_torsion_constant_lookup",
+  "ui_mode": "generic",
+  "short_description": "Polar moment / torsion constant lookup calculator in the hybrid plugin architecture.",
+  "tags": [
+    "properties_geometry",
+    "properties_geometry",
+    "polar_moment_torsion_constant_lookup"
+  ],
+  "generic_fields": [
+    {
+      "name": "primary_dimension",
+      "label": "Primary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "secondary_dimension",
+      "label": "Secondary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "default": 100.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}
