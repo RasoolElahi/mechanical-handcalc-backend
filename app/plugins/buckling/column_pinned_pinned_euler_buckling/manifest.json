@@ -1,0 +1,70 @@
+{
+  "plugin_id": "buckling__column_pinned_pinned_euler_buckling",
+  "top_category": "BUCKLING",
+  "subcategory": "Column - pinned-pinned Euler buckling",
+  "category_slug": "buckling",
+  "calc_slug": "column_pinned_pinned_euler_buckling",
+  "ui_mode": "generic",
+  "short_description": "Column - pinned-pinned Euler buckling calculator in the hybrid plugin architecture.",
+  "tags": [
+    "buckling",
+    "buckling",
+    "column_pinned_pinned_euler_buckling"
+  ],
+  "generic_fields": [
+    {
+      "name": "length",
+      "label": "Column Length, L",
+      "type": "number",
+      "unit": "in",
+      "default": 20.0
+    },
+    {
+      "name": "load",
+      "label": "Axial Load",
+      "type": "number",
+      "unit": "lbf",
+      "default": 1000.0
+    },
+    {
+      "name": "effective_length_factor",
+      "label": "Effective Length Factor, K",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "elastic_modulus",
+      "label": "Elastic Modulus, E",
+      "type": "number",
+      "unit": "ksi",
+      "default": 29000.0
+    },
+    {
+      "name": "yield_strength",
+      "label": "Yield Strength",
+      "type": "number",
+      "unit": "ksi",
+      "default": 36.0
+    },
+    {
+      "name": "area",
+      "label": "Area, A",
+      "type": "number",
+      "unit": "in^2",
+      "default": 1.0
+    },
+    {
+      "name": "moment_of_inertia",
+      "label": "Moment of Inertia, I",
+      "type": "number",
+      "unit": "in^4",
+      "default": 1.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

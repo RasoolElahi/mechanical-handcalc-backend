@@ -1,0 +1,70 @@
+{
+  "plugin_id": "buckling__eccentrically_loaded_column",
+  "top_category": "BUCKLING",
+  "subcategory": "Eccentrically loaded column",
+  "category_slug": "buckling",
+  "calc_slug": "eccentrically_loaded_column",
+  "ui_mode": "generic",
+  "short_description": "Eccentrically loaded column calculator in the hybrid plugin architecture.",
+  "tags": [
+    "buckling",
+    "buckling",
+    "eccentrically_loaded_column"
+  ],
+  "generic_fields": [
+    {
+      "name": "length",
+      "label": "Column Length, L",
+      "type": "number",
+      "unit": "in",
+      "default": 20.0
+    },
+    {
+      "name": "load",
+      "label": "Axial Load",
+      "type": "number",
+      "unit": "lbf",
+      "default": 1000.0
+    },
+    {
+      "name": "effective_length_factor",
+      "label": "Effective Length Factor, K",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "elastic_modulus",
+      "label": "Elastic Modulus, E",
+      "type": "number",
+      "unit": "ksi",
+      "default": 29000.0
+    },
+    {
+      "name": "yield_strength",
+      "label": "Yield Strength",
+      "type": "number",
+      "unit": "ksi",
+      "default": 36.0
+    },
+    {
+      "name": "area",
+      "label": "Area, A",
+      "type": "number",
+      "unit": "in^2",
+      "default": 1.0
+    },
+    {
+      "name": "moment_of_inertia",
+      "label": "Moment of Inertia, I",
+      "type": "number",
+      "unit": "in^4",
+      "default": 1.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

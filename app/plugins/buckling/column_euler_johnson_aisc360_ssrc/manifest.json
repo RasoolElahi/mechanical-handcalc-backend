@@ -1,0 +1,15 @@
+{
+  "plugin_id": "buckling__column_euler_johnson_aisc360_ssrc",
+  "top_category": "BUCKLING",
+  "subcategory": "Column _ Euler_Johnson_AISC360_SSRC",
+  "category_slug": "buckling",
+  "calc_slug": "column_euler_johnson_aisc360_ssrc",
+  "ui_mode": "custom",
+  "short_description": "Column _ Euler_Johnson_AISC360_SSRC calculator in the hybrid plugin architecture.",
+  "tags": [
+    "buckling",
+    "buckling",
+    "column_euler_johnson_aisc360_ssrc"
+  ],
+  "generic_fields": []
+}
