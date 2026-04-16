@@ -1,0 +1,50 @@
+{
+  "plugin_id": "beam__cantilever_beam_multiple_point_loads",
+  "top_category": "BEAM",
+  "subcategory": "Cantilever beam - multiple point loads",
+  "category_slug": "beam",
+  "calc_slug": "cantilever_beam_multiple_point_loads",
+  "ui_mode": "generic",
+  "short_description": "Cantilever beam - multiple point loads calculator in the hybrid plugin architecture.",
+  "tags": [
+    "beam",
+    "beam",
+    "cantilever_beam_multiple_point_loads"
+  ],
+  "generic_fields": [
+    {
+      "name": "length",
+      "label": "Length, L",
+      "type": "number",
+      "unit": "in",
+      "default": 10.0
+    },
+    {
+      "name": "load",
+      "label": "Load",
+      "type": "number",
+      "unit": "lbf",
+      "default": 100.0
+    },
+    {
+      "name": "elastic_modulus",
+      "label": "Elastic Modulus, E",
+      "type": "number",
+      "unit": "ksi",
+      "default": 29000.0
+    },
+    {
+      "name": "moment_of_inertia",
+      "label": "Moment of Inertia, I",
+      "type": "number",
+      "unit": "in^4",
+      "default": 1.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

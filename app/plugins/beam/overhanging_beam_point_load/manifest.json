@@ -1,0 +1,50 @@
+{
+  "plugin_id": "beam__overhanging_beam_point_load",
+  "top_category": "BEAM",
+  "subcategory": "Overhanging beam - point load",
+  "category_slug": "beam",
+  "calc_slug": "overhanging_beam_point_load",
+  "ui_mode": "generic",
+  "short_description": "Overhanging beam - point load calculator in the hybrid plugin architecture.",
+  "tags": [
+    "beam",
+    "beam",
+    "overhanging_beam_point_load"
+  ],
+  "generic_fields": [
+    {
+      "name": "length",
+      "label": "Length, L",
+      "type": "number",
+      "unit": "in",
+      "default": 10.0
+    },
+    {
+      "name": "load",
+      "label": "Load",
+      "type": "number",
+      "unit": "lbf",
+      "default": 100.0
+    },
+    {
+      "name": "elastic_modulus",
+      "label": "Elastic Modulus, E",
+      "type": "number",
+      "unit": "ksi",
+      "default": 29000.0
+    },
+    {
+      "name": "moment_of_inertia",
+      "label": "Moment of Inertia, I",
+      "type": "number",
+      "unit": "in^4",
+      "default": 1.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "plugin_id": "beam__cantilever_beam_end_point_moment",
+  "top_category": "BEAM",
+  "subcategory": "Cantilever beam - end point moment",
+  "category_slug": "beam",
+  "calc_slug": "cantilever_beam_end_point_moment",
+  "ui_mode": "custom",
+  "short_description": "Cantilever beam - end point moment calculator in the hybrid plugin architecture.",
+  "tags": [
+    "beam",
+    "beam",
+    "cantilever_beam_end_point_moment"
+  ],
+  "generic_fields": []
+}
