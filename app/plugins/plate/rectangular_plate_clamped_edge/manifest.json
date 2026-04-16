@@ -1,0 +1,40 @@
+{
+  "plugin_id": "plate__rectangular_plate_clamped_edge",
+  "top_category": "PLATE",
+  "subcategory": "Rectangular plate - clamped edge",
+  "category_slug": "plate",
+  "calc_slug": "rectangular_plate_clamped_edge",
+  "ui_mode": "generic",
+  "short_description": "Rectangular plate - clamped edge calculator in the hybrid plugin architecture.",
+  "tags": [
+    "plate",
+    "plate",
+    "rectangular_plate_clamped_edge"
+  ],
+  "generic_fields": [
+    {
+      "name": "primary_dimension",
+      "label": "Primary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "secondary_dimension",
+      "label": "Secondary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "default": 100.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

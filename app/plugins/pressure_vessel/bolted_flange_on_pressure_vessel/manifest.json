@@ -1,0 +1,40 @@
+{
+  "plugin_id": "pressure_vessel__bolted_flange_on_pressure_vessel",
+  "top_category": "PRESSURE_VESSEL",
+  "subcategory": "Bolted flange on pressure vessel",
+  "category_slug": "pressure_vessel",
+  "calc_slug": "bolted_flange_on_pressure_vessel",
+  "ui_mode": "generic",
+  "short_description": "Bolted flange on pressure vessel calculator in the hybrid plugin architecture.",
+  "tags": [
+    "pressure_vessel",
+    "pressure_vessel",
+    "bolted_flange_on_pressure_vessel"
+  ],
+  "generic_fields": [
+    {
+      "name": "primary_dimension",
+      "label": "Primary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "secondary_dimension",
+      "label": "Secondary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "default": 100.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

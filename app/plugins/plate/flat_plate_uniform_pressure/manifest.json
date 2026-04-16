@@ -1,0 +1,40 @@
+{
+  "plugin_id": "plate__flat_plate_uniform_pressure",
+  "top_category": "PLATE",
+  "subcategory": "Flat plate - uniform pressure",
+  "category_slug": "plate",
+  "calc_slug": "flat_plate_uniform_pressure",
+  "ui_mode": "generic",
+  "short_description": "Flat plate - uniform pressure calculator in the hybrid plugin architecture.",
+  "tags": [
+    "plate",
+    "plate",
+    "flat_plate_uniform_pressure"
+  ],
+  "generic_fields": [
+    {
+      "name": "primary_dimension",
+      "label": "Primary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "secondary_dimension",
+      "label": "Secondary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "default": 100.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

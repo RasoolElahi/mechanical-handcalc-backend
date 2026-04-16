@@ -1,0 +1,40 @@
+{
+  "plugin_id": "shaft__press_fit_interference_torque_transfer",
+  "top_category": "SHAFT",
+  "subcategory": "Press fit / interference torque transfer",
+  "category_slug": "shaft",
+  "calc_slug": "press_fit_interference_torque_transfer",
+  "ui_mode": "generic",
+  "short_description": "Press fit / interference torque transfer calculator in the hybrid plugin architecture.",
+  "tags": [
+    "shaft",
+    "shaft",
+    "press_fit_interference_torque_transfer"
+  ],
+  "generic_fields": [
+    {
+      "name": "primary_dimension",
+      "label": "Primary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "secondary_dimension",
+      "label": "Secondary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "default": 100.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

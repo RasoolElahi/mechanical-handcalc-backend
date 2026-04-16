@@ -1,0 +1,40 @@
+{
+  "plugin_id": "plate__flat_plate_concentrated_load",
+  "top_category": "PLATE",
+  "subcategory": "Flat plate - concentrated load",
+  "category_slug": "plate",
+  "calc_slug": "flat_plate_concentrated_load",
+  "ui_mode": "generic",
+  "short_description": "Flat plate - concentrated load calculator in the hybrid plugin architecture.",
+  "tags": [
+    "plate",
+    "plate",
+    "flat_plate_concentrated_load"
+  ],
+  "generic_fields": [
+    {
+      "name": "primary_dimension",
+      "label": "Primary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "secondary_dimension",
+      "label": "Secondary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "default": 100.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

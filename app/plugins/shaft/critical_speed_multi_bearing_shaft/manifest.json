@@ -1,0 +1,40 @@
+{
+  "plugin_id": "shaft__critical_speed_multi_bearing_shaft",
+  "top_category": "SHAFT",
+  "subcategory": "Critical speed - multi-bearing shaft",
+  "category_slug": "shaft",
+  "calc_slug": "critical_speed_multi_bearing_shaft",
+  "ui_mode": "generic",
+  "short_description": "Critical speed - multi-bearing shaft calculator in the hybrid plugin architecture.",
+  "tags": [
+    "shaft",
+    "shaft",
+    "critical_speed_multi_bearing_shaft"
+  ],
+  "generic_fields": [
+    {
+      "name": "primary_dimension",
+      "label": "Primary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "secondary_dimension",
+      "label": "Secondary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "default": 100.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

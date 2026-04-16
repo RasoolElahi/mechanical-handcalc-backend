@@ -1,0 +1,40 @@
+{
+  "plugin_id": "pressure_vessel__nozzle_reinforcement_screening",
+  "top_category": "PRESSURE_VESSEL",
+  "subcategory": "Nozzle reinforcement screening",
+  "category_slug": "pressure_vessel",
+  "calc_slug": "nozzle_reinforcement_screening",
+  "ui_mode": "generic",
+  "short_description": "Nozzle reinforcement screening calculator in the hybrid plugin architecture.",
+  "tags": [
+    "pressure_vessel",
+    "pressure_vessel",
+    "nozzle_reinforcement_screening"
+  ],
+  "generic_fields": [
+    {
+      "name": "primary_dimension",
+      "label": "Primary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "secondary_dimension",
+      "label": "Secondary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "default": 100.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

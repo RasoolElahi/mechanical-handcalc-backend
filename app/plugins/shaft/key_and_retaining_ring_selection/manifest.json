@@ -1,0 +1,40 @@
+{
+  "plugin_id": "shaft__key_and_retaining_ring_selection",
+  "top_category": "SHAFT",
+  "subcategory": "Key and retaining ring selection",
+  "category_slug": "shaft",
+  "calc_slug": "key_and_retaining_ring_selection",
+  "ui_mode": "generic",
+  "short_description": "Key and retaining ring selection calculator in the hybrid plugin architecture.",
+  "tags": [
+    "shaft",
+    "shaft",
+    "key_and_retaining_ring_selection"
+  ],
+  "generic_fields": [
+    {
+      "name": "primary_dimension",
+      "label": "Primary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "secondary_dimension",
+      "label": "Secondary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "default": 100.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

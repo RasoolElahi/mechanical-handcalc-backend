@@ -1,0 +1,40 @@
+{
+  "plugin_id": "shaft__shaft_shoulder_stress_concentration",
+  "top_category": "SHAFT",
+  "subcategory": "Shaft shoulder / stress concentration",
+  "category_slug": "shaft",
+  "calc_slug": "shaft_shoulder_stress_concentration",
+  "ui_mode": "generic",
+  "short_description": "Shaft shoulder / stress concentration calculator in the hybrid plugin architecture.",
+  "tags": [
+    "shaft",
+    "shaft",
+    "shaft_shoulder_stress_concentration"
+  ],
+  "generic_fields": [
+    {
+      "name": "primary_dimension",
+      "label": "Primary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "secondary_dimension",
+      "label": "Secondary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "default": 100.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}
