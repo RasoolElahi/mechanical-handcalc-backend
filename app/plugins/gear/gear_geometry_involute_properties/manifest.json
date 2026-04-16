@@ -1,0 +1,40 @@
+{
+  "plugin_id": "gear__gear_geometry_involute_properties",
+  "top_category": "GEAR",
+  "subcategory": "Gear geometry / involute properties",
+  "category_slug": "gear",
+  "calc_slug": "gear_geometry_involute_properties",
+  "ui_mode": "generic",
+  "short_description": "Gear geometry / involute properties calculator in the hybrid plugin architecture.",
+  "tags": [
+    "gear",
+    "gear",
+    "gear_geometry_involute_properties"
+  ],
+  "generic_fields": [
+    {
+      "name": "primary_dimension",
+      "label": "Primary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "secondary_dimension",
+      "label": "Secondary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "default": 100.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

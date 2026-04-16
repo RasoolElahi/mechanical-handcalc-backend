@@ -1,0 +1,40 @@
+{
+  "plugin_id": "gear__bevel_gear_analysis",
+  "top_category": "GEAR",
+  "subcategory": "Bevel gear analysis",
+  "category_slug": "gear",
+  "calc_slug": "bevel_gear_analysis",
+  "ui_mode": "generic",
+  "short_description": "Bevel gear analysis calculator in the hybrid plugin architecture.",
+  "tags": [
+    "gear",
+    "gear",
+    "bevel_gear_analysis"
+  ],
+  "generic_fields": [
+    {
+      "name": "primary_dimension",
+      "label": "Primary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "secondary_dimension",
+      "label": "Secondary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "default": 100.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

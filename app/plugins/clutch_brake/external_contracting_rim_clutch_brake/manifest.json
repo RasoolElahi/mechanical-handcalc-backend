@@ -1,0 +1,40 @@
+{
+  "plugin_id": "clutch_brake__external_contracting_rim_clutch_brake",
+  "top_category": "CLUTCH_BRAKE",
+  "subcategory": "External contracting rim clutch / brake",
+  "category_slug": "clutch_brake",
+  "calc_slug": "external_contracting_rim_clutch_brake",
+  "ui_mode": "generic",
+  "short_description": "External contracting rim clutch / brake calculator in the hybrid plugin architecture.",
+  "tags": [
+    "clutch_brake",
+    "clutch_brake",
+    "external_contracting_rim_clutch_brake"
+  ],
+  "generic_fields": [
+    {
+      "name": "primary_dimension",
+      "label": "Primary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "secondary_dimension",
+      "label": "Secondary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "default": 100.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

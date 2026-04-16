@@ -1,0 +1,40 @@
+{
+  "plugin_id": "gear__parallel_shaft_helical_gear_forces",
+  "top_category": "GEAR",
+  "subcategory": "Parallel shaft helical gear forces",
+  "category_slug": "gear",
+  "calc_slug": "parallel_shaft_helical_gear_forces",
+  "ui_mode": "generic",
+  "short_description": "Parallel shaft helical gear forces calculator in the hybrid plugin architecture.",
+  "tags": [
+    "gear",
+    "gear",
+    "parallel_shaft_helical_gear_forces"
+  ],
+  "generic_fields": [
+    {
+      "name": "primary_dimension",
+      "label": "Primary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "secondary_dimension",
+      "label": "Secondary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "default": 100.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

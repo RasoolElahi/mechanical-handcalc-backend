@@ -1,0 +1,40 @@
+{
+  "plugin_id": "clutch_brake__friction_material_pv_temperature_check",
+  "top_category": "CLUTCH_BRAKE",
+  "subcategory": "Friction material PV / temperature check",
+  "category_slug": "clutch_brake",
+  "calc_slug": "friction_material_pv_temperature_check",
+  "ui_mode": "generic",
+  "short_description": "Friction material PV / temperature check calculator in the hybrid plugin architecture.",
+  "tags": [
+    "clutch_brake",
+    "clutch_brake",
+    "friction_material_pv_temperature_check"
+  ],
+  "generic_fields": [
+    {
+      "name": "primary_dimension",
+      "label": "Primary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "secondary_dimension",
+      "label": "Secondary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "default": 100.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}

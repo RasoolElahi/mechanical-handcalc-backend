@@ -1,0 +1,40 @@
+{
+  "plugin_id": "clutch_brake__band_brake_torque_capacity",
+  "top_category": "CLUTCH_BRAKE",
+  "subcategory": "Band brake torque capacity",
+  "category_slug": "clutch_brake",
+  "calc_slug": "band_brake_torque_capacity",
+  "ui_mode": "generic",
+  "short_description": "Band brake torque capacity calculator in the hybrid plugin architecture.",
+  "tags": [
+    "clutch_brake",
+    "clutch_brake",
+    "band_brake_torque_capacity"
+  ],
+  "generic_fields": [
+    {
+      "name": "primary_dimension",
+      "label": "Primary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "secondary_dimension",
+      "label": "Secondary Dimension",
+      "type": "number",
+      "default": 1.0
+    },
+    {
+      "name": "load",
+      "label": "Applied Load",
+      "type": "number",
+      "default": 100.0
+    },
+    {
+      "name": "factor_of_safety",
+      "label": "Factor of Safety",
+      "type": "number",
+      "default": 2.0
+    }
+  ]
+}
